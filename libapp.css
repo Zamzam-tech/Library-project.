@@ -1,0 +1,20 @@
+#library {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .book-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  #newBookForm {
+    display: none; /* Initially hidden */
+    position: fixed; /* Or absolute, depending on your preference */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 1000; /* Ensure it's on top */
+    }

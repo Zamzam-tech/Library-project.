@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Library</title>
+  <link rel="stylesheet" href="libapp.css">
+</head>
+<body>
+<h1>My Library</h1> 
+
+<button id="newBookBtn">New Book</button>
+
+<div id="library"></div>
+
+<div id="newBookForm">
+  <h2>New Book</h2>
+  <form id="bookForm">
+    <label for="title">Title:</label><br>
+    <input type="text" id="title" name="title" required><br><br>
+
+    <label for="author">Author:</label><br>
+    <input type="text" id="author" name="author" required><br><br>
+
+    <label for="pages">Pages:</label><br>
+    <input type="number" id="pages" name="pages" required><br><br>
+
+    <label for="read">Read:</label>
+    <input type="checkbox" id="read" name="read"><br></br>
+
+    <button type="submit">Add Book</button>
+    <button type="button" id="cancelBtn">Cancel</button>
+
+  </form>
+</div>
+
+
+<script src="libapp.js"></script>
+</body>
+</html>
